@@ -1,0 +1,150 @@
+/* COMMON */
+:root {
+  --border-main: orangered;
+  color: var(--border-main);
+  background-color: white;
+}
+
+h1 {
+  font-size: 36px;
+}
+h2,
+h3 {
+  font-size: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 5vw;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+
+.square-list {
+  padding-left: 40px;
+}
+.square-list > li {
+  list-style: square;
+  margin: 20px 0;
+}
+
+/* APP */
+.app {
+  width: calc(60% - 80px);
+  border: 1px solid var(--border-main);
+  margin: 40px auto auto;
+  padding: 60px 80px 0;
+  border-radius: 20px;
+}
+
+/* NAV */
+nav {
+  position: fixed;
+  width: calc(20% - 40px);
+  right: 0;
+  height: 100vh;
+}
+
+nav > ul {
+  display: flex;
+  height: 80vh;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+nav > ul > li {
+  border: 1px solid var(--border-main);
+  border-radius: 20px;
+  height: 60px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 20px;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  border-bottom: 1px solid var(--border-main);
+  padding-bottom: 20px;
+}
+
+.header-left {
+  width: 35%;
+}
+
+.header-left > h1 > img {
+  width: 40px;
+  height: 40px;
+}
+
+.header-right {
+  width: 65%;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.header-right > strong {
+  font-size: 26px;
+}
+
+.header-right > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#html_css_icon {
+  width: 7vw;
+}
+
+.header-right > ul > li {
+  position: relative;
+}
+
+.header-right > ul > li > img:hover {
+  cursor: pointer;
+}
+
+.popup-card {
+  position: absolute;
+  top: 6vw;
+  left: -30px;
+  right: -30px;
+  border: 1px solid var(--border-main);
+  background-color: white;
+  border-radius: 10px;
+  padding: 0 10px;
+  display: none;
+}
+
+.popup-card.on {
+  display: block;
+}
+
+/* PROJECTS */
+.project {
+  border: 1px solid var(--border-main);
+  border-radius: 20px;
+  padding: 0 30px;
+  margin: 40px 0;
+}
+
+.project > a > img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}

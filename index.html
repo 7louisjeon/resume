@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css"></link>
+    <link rel="icon" href="./images/alien.png">
+    <title>Eunbae Jeon 이력서</title>
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <div class="app">
+      <nav>
+        <ul>
+          <li id="root_btn">Introduction</li>
+          <li id="morales_btn">Morales' Devlog</li>
+          <li id="travo_btn">Travo</li>
+          <li id="boxmovies_btn">Boxmovies</li>
+          <li id="datafactory_btn">Datafactory</li>
+          <li id="soylent_btn">Soylent Clone</li>
+        </ul>
+      </nav>
+      <header>
+        <div class="header-left">
+          <h1>전은배</h1>
+          <p>Email: <a href="mailto:wjss5115@gmail.com">wjss5115@gmail.com</a></p>
+          <p>Mobile: <a href="callto:010-5771-6047">010-5771-6047</a> </p>
+          <p>Blog: <a href="https://morales-devlog.herokuapp.com/" target="_blank">https://morales-devlog.herokuapp.com/</a></p>
+          <p>
+            Github:
+            <a href="https://github.com/7louisjeon" target="_blank">https://github.com/7louisjeon</a>
+          </p>
+        </div>
+        <div class="header-right">
+          <strong><a href="https://morales-devlog.herokuapp.com/" target="_blank">https://morales-devlog.herokuapp.com/</a></strong>
+          <ul>
+            <li>
+              <img id="html_css_icon" src="./images/htmlcss.png" alt="HTML&CSS">
+              <div id="html_css_card" class="popup-card">
+                <h4>HTML&CSS</h4>
+                <p>HTML과 CSS는 웹페이지의 골격을 만들고 꾸미는 데에 사용되는 언어들이다.</p>
+              </div>
+            </li>
+            <li>
+              <img id="javascript_icon" src="./images/javascript.png" alt="JavaScript">
+              <div id="javascript_card" class="popup-card">
+                <h4>JavaScript</h4>
+                <p>JavaScript는 브라우저 또는 Node환경에서 동작하는 프로그래밍 언어로, 웹페이지의 동작을 담당한다.</p>
+              </div>
+            </li>
+            <li>
+              <img id="react_icon" src="./images/react.png" alt="React">
+              <div id="react_card" class="popup-card">
+                <h4>React</h4>
+                <p>React는 현재 가장 점유율이 높은 JavaScript 라이브러리로, 컴포넌트를 이용하여 웹개발의 효율을 향상시킨다.</p>
+              </div>
+            </li>
+            <li>
+              <img id="nodejs_icon"" src="./images/nodejs.png" alt="NodeJS">
+              <div id="nodejs_card" class="popup-card">
+                <h4>NodeJS</h4>
+                <p>NodeJS는 Chrome의 V8엔진을 이용한 JavaScript 런타임 환경으로, JavaScript를 브라우저 외의 환경에서도 동작하게 만들어준다.</p>
+              </div>
+            </li>
+            <li>
+              <img id="typescript_icon" src="./images/typescript.png" alt="TypeScript">
+              <div id="typescript_card" class="popup-card">
+                <h4>TypeScript</h4>
+                <p>TypeScirpt는 Microsoft에서 만든 JavaScript의 superset으로, 예상되는 타입을 암시해주고 개발 과정에서 오류를 미리 잡아주는 등의 편리함을 가져다 준다.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        
+      </header>
+      <main>
+        <section class="intro">
+          <ul class="square-list">
+            <li>안녕하세요, 성장에 목마른 개발자 전은배입니다.</li>
+            <li>개발, 피아노, 음악 프로듀싱 등 다양한 취미를 가지고 있습니다.</li>
+            <li>TypeScript나 Sass등의 최근 기술에 관심이 많습니다.</li>
+            <li>NodeJS, MongoDB등을 마스터하여  풀스택 개발자가 되는것이 목표입니다.</li>
+          </ul>
+        </section>
+        <section class="projects">
+          <h2>PROJECTS</h2>
+          <ul>
+            <li id="morales" class="project">
+              <h3>Morales' Devlog (MERN스택 블로그 웹사이트)</h3>
+              <a href="https://morales-devlog.herokuapp.com/" target="_blank">
+                <img src="./images/morales-devlog.png" alt="Morales' Devlog"></a>
+              <ul class="square-list">
+                <li>계정 등록, 로그인, 검색 및 이미지와 마크다운 계시글 작성 기능이 있는 크로스 플랫폼 블로그 사이트입니다.</li>
+                <li>MERN스택을 이용하여 제작되었습니다.</li>
+                <li>방향키로 navigation이 가능한 검색창을 구현하였습니다.</li>
+                <li>회원등록, 로그인 및 bcrypt 암호화를 구현하였습니다.</li>
+                <li>미디어쿼리를 통해 모바일, 태블릿 및 다양한 사이즈의 PC에서 사용 가능하도록 제작하였습니다.</li>
+                <li>Heroku에 풀스택으로 배포하였습니다.</li>
+                <li>Github: <a href="https://github.com/7louisjeon/morales-devlog" target="_blank">https://github.com/7louisjeon/morales-devlog</a></li>
+              </ul>
+            </li>
+            <li id="travo" class="project">
+              <h3>Travo (React 프론트엔드 프로젝트)</h3>
+              <a href="https://travo-dbdbb.web.app/" target="_blank">
+                <img src="./images/travo.jpg" alt="Travo"></a>
+              <ul class="square-list">
+                <li>테마 커스터마이징 기능이 있는 이벤트 검색 웹사이트</li>
+                <li>현재 구글 맵 API와의 연동이 끊어진 상태로, 추후 네이버 지도 API와 연결 예정</li>
+                <li>React를 이용하여 제작</li>
+                <li>Github: <a href="https://github.com/7louisjeon/Travo" target="_blank">https://github.com/7louisjeon/Travo</a></li>
+              </ul>
+            </li>
+            <li id="boxmovies" class="project">
+              <h3>Boxmovies (React 프론트엔드 프로젝트)</h3>
+              <a href="https://boxmovies-5977b.web.app/" target="_blank">
+                <img src="./images/boxmovies.jpg" alt="Boxmovies"></a>
+              <ul class="square-list">
+                <li>IMDB api를 이용한 영화 검색 웹사이트</li>
+                <li>카테고리, 나이, 장르 등으로 필터링 가능</li>
+                <li>React를 이용하여 제작</li>
+                <li>Github: <a href="https://github.com/7louisjeon/Box-Movies" target="_blank">https://github.com/7louisjeon/Box-Movies</a></li>
+              </ul>
+            </li>
+            <li id="datafactory" class="project">
+              <h3>Datafactory (React 프론트엔드 프로젝트)</h3>
+              <a href="https://datafactory-3203f.web.app/" target="_blank">
+                <img src="./images/datafactory.png" alt="Datafactory"></a>
+              <ul class="square-list">
+                <li>사용자의 입력에 따른 그래프를 렌더링하는 사이트</li>
+                <li>순수JS로의 그래프 구현 연습을 위해 제작</li>
+                <li>React를 이용하여 제작</li>
+                <li>Github: <a href="https://github.com/7louisjeon/Datafactory" target="_blank">https://github.com/7louisjeon/Datafactory</a></li>
+              </ul>
+            </li>
+            <li id="soylent" class="project">
+              <h3>Soylent Clone (Git Flow 협업 연습용 프로젝트)</h3>
+              <a href="https://7louisjeon.github.io/soylent-clone/" target="_blank">
+                <img src="./images/soylent.png" alt="Soylent"></a>
+              <ul class="square-list">
+                <li>develop branch를 파서 Issue를 생성하고 Scrum board를 만들어 일정 관리</li>
+                <li>Pull request를 통해 코드를 리뷰하고 합병</li>
+                <li>세 명의 팀원이 메인페이지를 3분할하여 제작</li>
+                <li>Github: <a href="https://github.com/7louisjeon/soylent-clone/tree/develop" target="_blank">https://github.com/7louisjeon/soylent-clone/tree/develop</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        
+      </main>
+    </div>
+  </body>
+</html>
